@@ -22,13 +22,13 @@ JavaScript (ES6) - Core programming language
 
 ## 📂 Project Structure
 
-shopee-cart-simulation/
-│-- src/
-│   ├── cart.js  # Cart logic
-│   ├── item.js  # Cart item logic
-│   ├── index.js  # Entry point
-│-- package.json
-│-- README.md
+shopee-cart/ \
+│-- src/ \
+│   ├── cart.js  # Cart logic \
+│   ├── item.js  # Cart item logic \
+│   ├── index.js  # Entry point \
+│-- package.json \
+│-- README.md \
 
 ## 🚀 Getting Started
 
@@ -47,24 +47,24 @@ node src/index.js
 
 ## 📌 Features
 
-✅ Add items to the cart
-✅ Remove items from the cart
-✅ Delete items from the cart
-✅ Calculate total cart price
-✅ Display cart summary
+✅ Add items to the cart \
+✅ Remove items from the cart \
+✅ Delete items from the cart \
+✅ Calculate total cart price \
+✅ Display cart summary \
 
 ## 📜 Example Usage
 
-import * as cartService from "./services/cart.js"
-import createItem from "./services/item.js"
+import * as cartService from "./services/cart.js" \
+import createItem from "./services/item.js" \
 
-const cart = [];
-const item1 = createItem('Headphones', 100, 2)
+const cart = []; \ 
+const item1 = createItem('Headphones', 100, 2) \
 
-cartService.addItemToCart(cart, item1);
-cartService.removeItemFromCart(cart, item1);
-cartService.displayCart(cart)
-cartService.calculateTotalPrice(cart)
+cartService.addItemToCart(cart, item1); \
+cartService.removeItemFromCart(cart, item1); \
+cartService.displayCart(cart) \
+cartService.calculateTotalPrice(cart) \
 
 
 ## 📜 License
