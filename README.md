@@ -28,13 +28,13 @@ shopee-cart/ \
 │   ├── item.js  # Cart item logic \
 │   ├── index.js  # Entry point \
 │-- package.json \
-│-- README.md \
+│-- README.md
 
 ## 🚀 Getting Started
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/lsmescolotto/shopee-cart.git
+git clone https://github.com/lsmescolotto/shopee-cart.git \
 cd shopee-cart
 
 2️⃣ Install Dependencies
@@ -51,7 +51,7 @@ node src/index.js
 ✅ Remove items from the cart \
 ✅ Delete items from the cart \
 ✅ Calculate total cart price \
-✅ Display cart summary \
+✅ Display cart summary
 
 ## 📜 Example Usage
 
@@ -64,7 +64,7 @@ const item1 = createItem('Headphones', 100, 2) \
 cartService.addItemToCart(cart, item1); \
 cartService.removeItemFromCart(cart, item1); \
 cartService.displayCart(cart) \
-cartService.calculateTotalPrice(cart) \
+cartService.calculateTotalPrice(cart)
 
 
 ## 📜 License
