@@ -1,6 +1,6 @@
-Shopee Cart Simulation
+# Shopee Cart Simulation
 
-📌 Project Overview
+## 📌 Project Overview
 
 This is a simple Node.js project that simulates some functionalities of a Shopee shopping cart. It allows users to:
 
@@ -13,14 +13,14 @@ Delete items from the cart ❌
 Calculate total price 💰
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Node.js - JavaScript runtime
 
 JavaScript (ES6) - Core programming language
 
 
-📂 Project Structure
+## 📂 Project Structure
 
 shopee-cart-simulation/
 │-- src/
@@ -30,7 +30,7 @@ shopee-cart-simulation/
 │-- package.json
 │-- README.md
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 1️⃣ Clone the Repository
 
@@ -45,7 +45,7 @@ npm install
 
 node src/index.js
 
-📌 Features
+## 📌 Features
 
 ✅ Add items to the cart
 ✅ Remove items from the cart
@@ -53,7 +53,7 @@ node src/index.js
 ✅ Calculate total cart price
 ✅ Display cart summary
 
-📜 Example Usage
+## 📜 Example Usage
 
 import * as cartService from "./services/cart.js"
 import createItem from "./services/item.js"
@@ -67,7 +67,6 @@ cartService.displayCart(cart)
 cartService.calculateTotalPrice(cart)
 
 
-
-📜 License
+## 📜 License
 
 This project is open-source under the MIT License.
